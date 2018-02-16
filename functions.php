@@ -11,6 +11,11 @@ function syzygy_theme_setup(){
 
     // Post Formats
     add_theme_support('post-formats', array('aside', 'gallery'));
+		
+		add_theme_support( 'woocommerce' );
+		add_theme_support( 'wc-product-gallery-slider' );
+		add_theme_support( 'wc-product-gallery-zoom' );
+		add_theme_support( 'wc-product-gallery-lightbox' );
 };
 
 add_action('after_setup_theme','syzygy_theme_setup');
