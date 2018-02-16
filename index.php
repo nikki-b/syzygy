@@ -2,10 +2,12 @@
 <?php get_template_part('template-parts/featured-carousel', 'none'); ?>
 
 <div class="container main-content">
-  <section class="main-content_title">
-    <h3>Latest Posts</h3>
-    <p>From the outer reaches of the galaxy</p>
-  </section>
+  <?php if(!is_single()) : ?>
+    <section class="main-content_title">
+      <h3>Latest Posts</h3>
+      <p>From the outer reaches of the galaxy</p>
+    </section>
+  <?php endif; ?>
   <div class="row">
     <!-- MAIN POSTS -->
     <section class="main-content_posts col-md-8">

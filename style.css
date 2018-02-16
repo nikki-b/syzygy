@@ -84,23 +84,41 @@ header a {
 	text-decoration: none;
 }
 
+.branding {
+	text-align: center;
+}
+
 .branding h1 {
 	font-family: "Unica One", cursive;
 	font-size: 4.5rem;
-	padding: 2rem 0;
+	padding: 2rem 0 0;
 	text-transform: uppercase;
-	text-align: center;
+}
+
+.branding p {
+	font-size: 0.8rem;
 }
 
 /* FEATURED POSTS SLIDER */
 .featured-carousel_item {
-	max-height: 300px;
+	max-height: 240px;
 }
 
 .featured-carousel_item img {
 	height: auto;
 	overflow: hidden;
 	width: 100%;
+}
+
+.card-img-overlay {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.card-text {
+	color: #fff;
+	font-size: 0.6rem;
+	text-transform: uppercase;
 }
 
 .slick-prev {
@@ -163,6 +181,10 @@ header a {
 	text-transform: lowercase;
 }
 
+.comment-author img {
+	display: none;
+}
+
 /* SIDEBAR */
 .main-content_sidebar {
 	margin-top: 3rem;
@@ -178,8 +200,10 @@ header a {
 }
 
 .tag-cloud-link {
+	display: inline-block;
 	font-size: 1rem !important;
 	outline: 1px solid #c4c4c4;
+	margin-top: 0.5rem;
 	padding: 0.5rem;
 	transition: color 0.5s ease;
 	transition: background-color 0.5s ease;

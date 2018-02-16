@@ -6,7 +6,7 @@
         <img class="card-img" src="<?php the_post_thumbnail_url(); ?>">
         <div class="card-img-overlay">
           <h2 class="card-title font-effect-shadow-multiple"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          <p class="card-text"><small class="text-muted"><?php the_category(', '); ?></small></p>
+          <p class="card-text"><?php the_time('M d'); ?></p>
         </div>
       </div>
     <?php endwhile; ?> <?php wp_reset_query(); ?>
