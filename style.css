@@ -1,0 +1,197 @@
+/*
+Theme Name: Syzygy
+Theme URI: http://nik-nook.com/syzygy/
+Author: Nikki Brown
+Author URI: http://nik-nook.com/
+Description: Out-of-this-world Wordpress theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: syzygy
+*/
+
+/*
+Fonts
+font-family: 'Unica One', cursive;
+font-family: 'Lato', sans-serif;
+
+Colors
+accent: #1abc9c;
+*/
+
+/* GLOBAL */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	font-family: "Unica One", cursive;
+	text-transform: uppercase;
+	color: rgba(34, 34, 34, 1);
+	transition: color 0.5s ease;
+}
+
+a:hover {
+	color: #1abc9c;
+	text-decoration: none;
+}
+
+p {
+	font-family: "Lato", sans-serif;
+	color: #8d8d8d;
+	font-weight: 300;
+}
+
+/* HEADER */
+header {
+	background-color: rgba(34, 34, 34, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+header a {
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 1);
+	font-family: "Unica One", cursive;
+	font-size: 0.9rem;
+	transition: color 0.5s ease;
+}
+
+.header_nav {
+	padding: 0.7rem 4rem 0;
+}
+
+.header_nav ul {
+	list-style-type: none;
+}
+
+.header_nav ul li {
+	display: inline;
+	padding-right: 1.5rem;
+}
+
+.header_nav_social a {
+	color: rgb(141, 141, 141);
+	font-size: 1rem;
+	transition: color 0.5s ease;
+}
+
+.header_nav_social a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.branding h1 {
+	font-family: "Unica One", cursive;
+	font-size: 4.5rem;
+	padding: 2rem 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* FEATURED POSTS SLIDER */
+.featured-carousel_item {
+	max-height: 300px;
+}
+
+.featured-carousel_item img {
+	height: auto;
+	overflow: hidden;
+	width: 100%;
+}
+
+.slick-prev {
+	left: 10px;
+	z-index: 1000;
+}
+
+.slick-next {
+	right: 10px;
+}
+
+/* MAIN - CONTENT */
+
+.main-content_title {
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.main-content_title h3 {
+	letter-spacing: 0.8rem;
+}
+
+.main-content_title p {
+	color: rgb(141, 141, 141);
+}
+
+/* BLOG POSTS */
+.blog-post {
+	margin: 3rem 0;
+}
+
+.blog-post-meta {
+	border-right: 1px solid #ebebeb;
+	display: block;
+	padding-right: 20px;
+}
+
+.blog-post_date_d {
+	color: #000;
+	font-weight: 500;
+}
+
+.blog-post_date_m {
+	font-size: 0.75rem;
+}
+
+.blog-post img {
+	height: auto;
+	margin-bottom: 3rem;
+	width: 100%;
+}
+
+.blog-post_content {
+	border-bottom: 1px solid #c4c4c4;
+	margin-bottom: 1rem;
+}
+
+.blog-post_details {
+	font-size: 0.7rem;
+	text-transform: lowercase;
+}
+
+/* SIDEBAR */
+.main-content_sidebar {
+	margin-top: 3rem;
+}
+
+.sidebar-module {
+	padding-bottom: 2rem;
+}
+
+.sidebar-module h4 {
+	color: #1abc9c;
+	font-size: 1rem;
+}
+
+.tag-cloud-link {
+	font-size: 1rem !important;
+	outline: 1px solid #c4c4c4;
+	padding: 0.5rem;
+	transition: color 0.5s ease;
+	transition: background-color 0.5s ease;
+}
+
+.tag-cloud-link:hover {
+	background-color: #1abc9c;
+	color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #000;
+}
