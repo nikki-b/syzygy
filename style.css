@@ -217,5 +217,41 @@ header a {
 /* FOOTER */
 
 footer {
+	padding: 1rem 0;
 	background-color: #000;
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 3rem 0;
+}
+
+.portfolio_item {
+	height: auto;
+	max-width: 450px;
+}
+
+.portfolio .card-img-overlay {
+	opacity: 0;
+	transform: scale(1.15);
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.portfolio .card-img-overlay:hover {
+	background: #fff;
+	opacity: 1;
+	transform: scale(1.05);
+}
+
+.portfolio .card-text {
+	font-size: 0.9rem;
+	color: #000;
 }
